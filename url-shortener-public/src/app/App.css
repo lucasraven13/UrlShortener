@@ -1,0 +1,9 @@
+.add-new-blk {
+  margin: 20px 0 20px 10px;
+}
+
+.edit-record-cntnr {
+  max-width: 300px;
+  margin-left: calc(50% - 150px);
+  margin-top: 50px;
+}
