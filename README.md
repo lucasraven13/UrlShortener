@@ -1,4 +1,4 @@
-# TestProject
+# Shorten URL web application 
 
 Consists of the ASP.NET Core Web API part and the front-end part created using React.
 
