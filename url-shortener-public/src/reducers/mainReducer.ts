@@ -1,5 +1,4 @@
 import Actions from "../actions/actionsList";
-import UrlRecord from "../models/urlRecord";
 
 const initialState = {
     isLoading: false,
@@ -49,6 +48,7 @@ export default (state = initialState, action: { type: any; payload: any; }) => {
         case Actions.SHOW_EDIT_RECORD:
             newState = {
                 ...newState,
+                isLoading: false,
                 showRecordEditComponent: true
             }
             break;
